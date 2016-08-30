@@ -15,7 +15,7 @@ public class unitConverterImpl implements unitConverter {
 	public static class UnitConverterBuilder {
 		private unitConverterAlgorithm algorithm;
 		
-		public UnitConverterBuilder algorithm(unitConverterAlgorithm algorithm) {
+		public UnitConverterBuilder algorithm( unitConverterAlgorithm algorithm ) {
 			this.algorithm = algorithm;
 			return this;
 		}
